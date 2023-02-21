@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width:100%;
+    padding-right: 500px;
+    border: 2px solid grey;
+    background-color: rgb(237, 229, 229);
+	
+
+}
+body{
+    background-color: beige;
+
+}
+#home{
+    margin-top: 10px;
+}
+#footer{
+    border: 2px solid grey;
+    background-color: rgb(237, 229, 229);
+	
+}

@@ -6,16 +6,16 @@
 	<meta name="viewport" content=
 		"width=device-width, initial-scale=1.0">
 	<title>HTML Project</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 	<!--Header(start)-->
-	<table id="header" width="100%"
-		cellpadding="0" cellspacing="0" >
+	<table   >
 		<tr>
 			<td>
-				<table cellpadding="15"
-					cellspacing="0" width="90%">
+				<table id="header" 
+					cellspacing="20px"  >
 					<tr>
 						<td>
 							
@@ -24,7 +24,7 @@
 
 						<td>
 							<h2 face="Comic sans MS" size="6">
-								<b>Title</b>
+								<b style="color: purple;">Profile</b>
 							</h2>
 						</td>
 
@@ -32,9 +32,9 @@
 							
 						</td>
 
-						<td>
+						<td  style="padding-left: 500px;">
 							<a href="#home" style="text-decoration:none">
-								<h1 face="Verdana" size="5" color=black>
+								<h1  color=black>
 									Home
 								</h1>
 							</a>
@@ -46,7 +46,7 @@
 
 						<td>
 							<a href="#about" style="text-decoration:none">
-								<h1 face="Verdana" size="5" color=black>
+								<h1 color=black>
 									About
 								</h1>
 							</a>
@@ -57,9 +57,9 @@
 						</td>
 
 						<td>
-							<a href="#projects" style="text-decoration:none">
-								<h1 face="Verdana" size="5" color=black>
-									Projects
+							<a href="#Skills" style="text-decoration:none">
+								<h1  color=black>
+									Skills
 								</h1>
 							</a>
 						</td>
@@ -70,7 +70,7 @@
 
 						<td>
 							<a href="#achievements" style="text-decoration:none">
-								<h1 face="Verdana" size="5" color=black>
+								<h1  color=black>
 									Education
 								</h1>
 							</a>
@@ -95,275 +95,154 @@
 	<!--Header(end)-->
 
 	<!--Home(start)-->
-	<table id="home" border="1" width="100%"
-		cellpadding="20" cellspacing="0" >
-		<tr>
-			<td>
-				<table cellpadding="5"
-					cellspacing="0" width="40%" align="center">
-					<tr>
-						<td align="center" valign="middle">
-							<h3>
-								<h1 face="Times New Roman"
-									size="6">
-									Hello Everyone!
-								</h1>
-							</h3>
-
-							<h2>
-								<h1 face="Verdana" size="6"
-									>
-									<!-- Freelance Programmer -->
-								</h1>
-							</h2>
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-	</table>
+	<div id="home"  width="100%">
+	<h1 style=" text-align:center;color:black;" size="6">Hello Everyone!! Welcome To My Profile</h1>
+	</div> <br> <br>
 	<!--Home(end)-->
 
-
 	<!--About(start)-->
-	<table id="about" border="0" width="100%"
-		cellpadding="0" cellspacing="0" >
-		<tr>
-			<td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="80%" align="center">
-					<tr>
-						<td height="180" align="center"
-							valign="middle" colspan="2">
-							<h1 face="Verdana" size="7"
-								color="#E72929">
-								About Me
-							</h1>
-							<hr color="#4CAF50" width="90">
-						</td>
-					</tr>
-
-					<tr>
-			
-					<td width="60%">
-							<h1 face="Verdana" size="4"
-								color="#ABAAAA">
-								Hi Evryone!! I'm Parvathy.L
-								<hr color="black">
-                                 I have Started my schooling from SNPS &nbsp
-                                 <br>
-							     Graduated CSE From A Reputed College.
-                                
-								<hr color="black">
-							</h1>
-						</td>
-					</tr>
-				</table>
-				<hr color="black">
-				<hr color="black">
-				<hr color="black">
-			</td>
-		</tr>
-	</table>
+	<section id="about"  style="border: 2px solid black;margin-top: 50px;padding: 10px;" >
+    <h1  style="text-align: center;text-decoration: underline green;">
+    About Me
+    </h1>
+   			
+	<div width="60%">
+	<h1 style="padding-top: 20px;">
+   I'm Parvathi.L ,I completed my B.Tech in Computer Science engineering from a Reputed College.</h1>
+ </section>
 	<!--About(end)-->
 
-
-	<!--Projects(start)-->
-	<table id="projects" border="0" width="100%"
-		cellpadding="0" cellspacing="0" >
-		<tr>
-			<td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="80%" align="center">
-					<tr>
-						<td height="180" align="center"
-							valign="middle" colspan="2">
-							<h1 face="Verdana" size="7"
-								color="black">
-								My Skills
-							</h1>
-							<hr color="black" width="90">
-						</td>
-					</tr>
-
-					<tr>
-						<td height="10">
-							<h1 face="Times New Roman"
-								size="5" color="black">
-								<ul>
+	<!--skills(start)-->
+	<section id="Skills" style="border: 2px solid black;margin-top: 50px;" >
+    <h1 style="text-decoration: underline green;text-align: center;">  Skills</h1> 
+								<ul  style="padding: 10px;">
 									<li>
-										Reading
-										<a href="#" style="text-decoration:none">
-											 
-										</a>
+										<h1>Reading</h1>
 									</li>
 
 									<li>
 										<hr color="#c2c0c3">
-										Travelling
-										<a href="#" style="text-decoration:none"
-											color="#c2c0c3">
-											 
-										</a>
+										<h1>Travelling</h1>
+										
 									</li>
 
                                     <li>
 										<hr color="#c2c0c3">
-										Drawing
-										<a href="#" style="text-decoration:none"
-											color="#c2c0c3">
-											 
-										</a>
+										<h1>Drawing</h1>
+										
 									</li>
 									
 								</ul>
-								<hr color="#c2c0c3">
-								<hr color="#c2c0c3">
-								<hr color="#c2c0c3">
-								<hr color="#c2c0c3">
-							</h1>
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-	</table>
-	<!--Projects(end)-->
+	</section>
+	<!--skills(end)-->
 
-	<!--Achievement(start)-->
-	<table id="achievements" border="0" width="100%"
-		cellpadding="0" cellspacing="0">
-		<tr>
-			<td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="80%" align="center">
-					<tr>
-						<td height="180" align="center" valign="middle">
-							<h1 face="Verdana" size="7" color="#ABAAAA">
+	<!--education(start)-->
+	<section id="achievements" style="margin-top: 50px;border: 2px solid black; padding: 10px;" >
+							<h1 face="Verdana" style="text-align: center;text-decoration: underline green;">
 								Education
-								<hr color="#4CAF50" width="100">
+								
 							</h1>
-						</td>
-					</tr>
-
-					<tr>
-						<td>
 							<h1 face="Verdana" size="4" color="#ABAAAA">
 								<ul>
 									<li>
-										<b>College</b>
-										<ul>
+										<b style="text-decoration: underline" >Graduation</b>
+										<ul style="font-size: large;">
+											<li >B.tech</li>
 											<li>
-												March,2021 .
+												Computer Science And Technology		.
 											</li>
 											<li>
-                                             Computer Science And Technology
+                                             September 2020
 											</li>
 										</ul>
 									</li>
 
 									<li>
-										<hr color="white">
-										<hr color="white">
-										<hr color="white">
-										<b>School</b>
-										<ul>
+										<hr color="#c2c0c3">
+										
+										<b  style="text-decoration: underline" >Higher Secondary</b>
+										<ul  style="font-size: large;" >
 											<li>
-												August,2017
+												Science			
 											</li>
 											<li>
-												Science AND Technology
+												May 2016	
 											</li>
 										</ul>
 									</li>
 								</ul>
 
-							</h1>
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-	</table>
-	<!--Achievement(end)-->
+							</section>
+	<!--education(end)-->
 
 
 	<!--Contact(start)-->
-	<table id="contact" border="0" width="100%"
+	<table id="contact" style="border: 2px solid black ;margin-top: 50px;padding: 10px;" width="100%"
 		cellpadding="0" cellspacing="0">
 		<tr>
 			<td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="80%" align="center">
+				<table  cellpadding="15"
+					cellspacing="0" width="80%" align="center" style="font-size:medium;">
 					<tr>
-						<td height="180" align="center"
+						<td 
 							valign="middle" colspan="2">
-							<h1 face="Verdana" size="7"
-								color="black">
+							<h1  style="text-align: center;text-decoration: underline green;">
 								Contact
 							</h1>
-							<hr color="black" width="90">
+							
 						</td>
 					</tr>
 
 					<tr>
 						<td align="center" valign="top">
-							<table border="0" width="50%" cellpadding="15"
+							<table  cellpadding="15"
 								cellspacing="0" align="center" >
 								<tr>
 									<td width="30%">
-										<h1 face="Verdana" size="4"
-											color="#7C7777">
+										<h1 style="font-size: large;">
 											Name
 										</h1>
 									</td>
-									<td width="70%">
-										<h1 face="Verdana" size="4"
-											color="#7C7777">
+									<td >
+										<h1>
 											<input type="text" size="40">
 										</h1>
 									</td>
 								</tr>
 								<tr>
-									<td width="30%">
-										<h1 face="Verdana" size="4"
-											color="#7C7777">
+									<td >
+										<h1 style="font-size: large;" >
 											Email
 										</h1>
 									</td>
-									<td width="70%">
-										<h1 face="Verdana" size="4"
-											color="#7C7777">
+									<td >
+										<h1 >
 											<input type="email" size="40">
 										</h1>
 									</td>
 								</tr>
 								<tr>
-									<td width="30%">
-										<h1 face="Verdana" size="4"
-											color="#7C7777">
+									<td >
+										<h1 style="font-size: large;" >
 											Number
 										</h1>
 									</td>
-									<td width="70%">
-										<h1 face="Verdana" size="4"
-											color="#7C7777">
-											<input type="number" size="12">
+									<td >
+										<h1 >
+											<input type="number" size="60%">
 										</h1>
 									</td>
-								</tr>
-								<tr>
-									<td width="30%">
-										<h1 face="Verdana" size="4"
-											color="#7C7777">
+								</tr> <br> <br>
+								<tr> <br>
+									<td >
+										<h1  style="font-size: large;" >
 											Message
 										</h1>
 									</td>
-									<td width="70%">
-										<h1 face="Verdana" size="4"
-											color="#7C7777">
-											<textarea rows="5"
-												cols="37">
+									<td >
+										<h1 >
+											<textarea rows="4"
+												cols="40">
 											</textarea>
 										</h1>
 									</td>
@@ -373,26 +252,18 @@
 										
 									</td>
 									<td width="70%">
-										<button type="Submit">
-											<h1 face="Verdana"
-												size="4" color="black">
+										<button type="Submit" style="color: rgb(54, 54, 192);">
+											<h1 style="font-size: large;" >
 												<b>Submit</b>
 											</h1>
 										</button>
-										<hr color="black">
-										<hr color="black">
-									</td>
+										</td>
 								</tr>
 							</table>
 						</td>
 
 					</tr>
-					<tr>
-						<td colspan="2">
-							
-							
-						</td>
-					</tr>
+					
 				</table>
 			</td>
 		</tr>
@@ -401,8 +272,8 @@
 
 
 	<!--Footer1(start)-->
-	<table id="footer" border="0" width="100%"
-		cellpadding="0" cellspacing="0">
+	<table id="footer" width="100%"  
+		cellpadding="0" cellspacing="0"  style="margin-top: 100px;padding: 20px;" >
 		<tr>
 			<td>
 				<table border="0" cellpadding="15"
@@ -410,9 +281,7 @@
 					<tr>
 						<td width="13%" valign="top">
 							<b>LinkedIn</b>
-							<a href="#" style="text-decoration:none">
-								
-							</a>
+							
 						</td>
 
 						<td>
@@ -421,9 +290,7 @@
 
 						<td width="13%" valign="top">
 							<b>GitHub</b>
-							<a href="#" style="text-decoration:none">
-								
-							</a>
+							
 						</td>
 
 						<td>
@@ -432,9 +299,7 @@
 
 						<td width="13%" valign="top">
 							<b>Facebook</b>
-							<a href="#" style="text-decoration:none">
 							
-							</a>
 						</td>
 
 						<td>
@@ -443,9 +308,7 @@
 
 						<td width="13%" valign="top">
 							<b>HackerRank</b>
-							<a href="#" style="text-decoration:none">
 							
-							</a>
 						</td>
 
 						<td>
@@ -476,9 +339,7 @@
 
 						<td width="13%" valign="top">
 							<b>Website</b>
-							<a href="#" style="text-decoration:none">
 							
-							</a>
 						</td>
 
 						<td>
@@ -490,36 +351,17 @@
 							<a href="#" style="text-decoration:none">
 							</a>
 						</td>
-					</tr>
+					</tr> <h1 style="text-align: center; padding: 20px;">
+					©Copyright 2050 by nobody.
+					All rights reserved.
+				</h1>
+</table>
 				</table>
 			</td>
 		</tr>
-	</table>
+		
 	<!--Footer1(end)-->
-
-
-	<!--Footer2(start)-->
-	<table id="footer" border="0" width="100%"
-		cellpadding="0" cellspacing="0">
-		<tr>
-			<td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="90%" align="center">
-					<tr>
-						<td width="80%" valign="top">
-							<h1 face="Verdana"
-								color="#F51717  " size="5">
-								©Copyright 2050 by nobody.
-								All rights reserved.
-							</h1>
-						</td>
-
-					</tr>
-				</table>
-			</td>
-		</tr>
-	</table>
-	<!--Footer2(end)-->
+				
 
 </body>
 
